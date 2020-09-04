@@ -15,7 +15,23 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        .chat{
+            z-index: 999;
+            background: #0078FF;
+            padding:5px;
+            position: fixed;
+            border-radius: 5px;
+            right: 5px;
+            bottom: 100px;
 
+        }
+        .chat a{
+            background: #0078FF;
+            padding:5px;
+            color:white;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,22 +44,7 @@
     <!-- Header Area Start -->
     <header class="header-area">
         <!-- Top Header Area Start -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-5">
-                        <div class="top-header-content">
-                            <p>Welcome to Kiki Nails & Spa!</p>
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <div class="top-header-content text-right">
-                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Sat: 9.30 to 20.00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Call us: 437-882-8389</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      
         <!-- Top Header Area End -->
 
         <!-- Main Header Start -->
@@ -54,7 +55,7 @@
                     <nav class="classy-navbar justify-content-between" id="akameNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo11.png" alt="" width="110" height="70"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -71,11 +72,11 @@
                             <div class="classynav">
                                 <ul id="nav">
                                     <li class="active"><a href="./index.html">Home</a></li>
-                                     
-                                    <li><a href="./products.html">Products</a></li>
                                     <li><a href="./service.html">Services</a></li>
+                                    <li><a href="./gallery.html">Gallery</a></li>
+                                    <li><a href="./products.html">Products</a></li>
+                                    <li><a href="./blog.html">Blogs</a></li>
                                     <li><a href="./about.html">About Us</a></li>
-                                    
                                     <li><a href="./contact.html">Contact Us</a></li>
                                 </ul>
 
@@ -96,30 +97,28 @@
     <!-- Header Area End -->
 
     <!-- Welcome Area Start -->
-    <section class="welcome-area">
-        <div class="welcome-slides owl-carousel">
-            <!-- Single Welcome Slide -->
-            <div class="single-welcome-slide bg-img" style="background-image: url(img/bg-img/16.jpg);">
-                <!-- Welcome Content -->
-                <div class="welcome-content h-100">
-                    <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <!-- Welcome Text -->
-                            <div class="col-12 col-md-9 col-lg-6" style="margin-left:5%">
-                                <div class="welcome-text">
-                                    <h2 data-animation="fadeInUp" data-delay="100ms">We Care About <br> Your Nails</h2>
-                                    <p data-animation="fadeInUp" data-delay="400ms">“Discover your own style. Don't try to repeat what has already been written - have the courage to do your own thing and don't be afraid to do something different.”</p>
-                                    <a href="about.html" class="btn akame-btn" data-animation="fadeInUp" data-delay="700ms">About Us</a>
-                                </div>
-                            </div>
+    <section class="akame-cta-area bg-white section-padding-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-10 col-xl-5">
+                    <div class="cta-content">
+                        <h2>Welcome to Kiki Nails & Spa </h2>
+                        <p>Looking for an appointment? We'll be happy to assit your.</p>
+                        <div class="akame-btn-group mt-30">
+                            <a href="#" class="btn akame-btn active mr-3 mb-3 mb-sm-0">Book An Appointment</a>
+                            <a href="contact.html" class="btn akame-btn">Contact Us</a>
+                        </div>
+                        <div style="text-align: center; margin-top:20px;">
+                           <a href="https://www.instagram.com/kikinails2020/"> <img src="img/instagram-logos-png-images-free-download-2.png" width="40" height="40"></a>
+                            <a href="https://www.facebook.com/Kiki-Nails-Spa-106893854434912"><img src="img/fb.png" width="35" height="35" style="border-radius: 5px;"></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Single Welcome Slide -->
-            
         </div>
+
+        <!-- CTA Thumbnail -->
+        <div class="cta-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
     </section>
     <!-- Welcome Area End -->
 
@@ -128,18 +127,12 @@
         <div class="container">
             <div class="row align-items-center">
                 <!-- Section Heading -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="section-heading mb-80">
-                        <h2>Kiki Nails </h2>
-                        <p>The House of Nails &amp; Spa</p>
-                        <span>About Us</span>
-                    </div>
-                </div>
+               
 
                 <!-- About Us Thumbnail -->
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-8">
                     <div class="about-us-thumbnail mb-80">
-                        <img src="img/bg-img/marble_white_nude_powder_nails.jpeg" alt="">
+                        <img src="img/outside.jpeg" width="800" height="500" alt="">
                     </div>
                 </div>
 
@@ -148,6 +141,7 @@
                     <div class="about-us-content mb-80 pl-4">
                         <h3>Kiki Nails & Spa.</h3>
                         <p>“Kiki Nails & Spa is located in the heart of Etobicoke. Our goal is to create a professional environment where we completely satisfy our customers with each of our quality work. All of our technicians are always developing new skills and techniques to go above and beyond customer’s needs.”</p>
+                        <p>Our friendly and dedicated team at Kiki Nails & Spa commit to provide you above-and-beyond services. You will have the most relaxing and comfortable experience with us. We believe we will provide the top-quality services that you always deserve.</p>
                         <a href="about.html" class="btn akame-btn" data-animation="fadeInUp" data-delay="700ms">Learn More</a>
                     </div>
                 </div>
@@ -178,38 +172,46 @@
 
                 <!-- Single Service Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-service-area mb-80 wow fadeInUp" data-wow-delay="200ms">
-                        <img src="img/core-img/massage.jpeg" alt="">
-                        <h5>Relaxation Massage</h5>
-                        <p>Ut enim ad minim veniam, quis trud exercitation...</p>
-                    </div>
+                    <a href="service.html#Relaxation">
+                        <div class="single-service-area mb-80 wow fadeInUp" data-wow-delay="200ms">
+                            <img src="img/core-img/massage.jpeg" alt="">
+                            <h5>Relaxation Massage</h5>
+                            <p>Ut enim ad minim veniam, quis trud exercitation...</p>
+                        </div>
+                   </a>
                 </div>
 
                 <!-- Single Service Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
+                        <a href="service.html#Extension">
                     <div class="single-service-area mb-80 wow fadeInUp" data-wow-delay="400ms">
                         <img src="img/core-img/nail.jpeg" alt="">
                         <h5>Nails  Services</h5>
                         <p>Consectetur adipisicing elit, sed doe eiusmod.</p>
                     </div>
+                    </a>
                 </div>
 
                 <!-- Single Service Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
+                        <a href="service.html#FacialWaxing">
                     <div class="single-service-area mb-80 wow fadeInUp" data-wow-delay="600ms">
                         <img src="img/core-img/face.jpeg" alt="">
                         <h5>Silky Facial Waxing</h5>
                         <p>Nemo enim ipsam voluptatem quia voluptas</p>
                     </div>
+                        </a>
                 </div>
 
                 <!-- Single Service Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
+                        <a href="service.html#BodyWaxing">
                     <div class="single-service-area mb-80 wow fadeInUp" data-wow-delay="800ms">
                         <img src="img/core-img/body.jpeg" alt="">
                         <h5>Silky Body Waxing</h5>
                         <p>Ut enim ad minim veniam, quis trud exercitation...</p>
                     </div>
+                    </a>
                 </div>
 
             </div>
@@ -223,7 +225,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="choose-us-thumbnail mt-30 mb-80">
-                        <div class="choose-us-img bg-img" style="background-image: url(img/bg-img/abstract_nails_design_black_oval.png);"></div>
+                        <div class="choose-us-img bg-img" style="background-image: url(img/core-img/test.jpeg);"></div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -377,70 +379,77 @@
 
     <!-- Footer Area Start -->
     <footer class="footer-area section-padding-80-0">
-            <div class="container">
-                <div class="row justify-content-between">
-    
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-md-4">
-                        <div class="single-footer-widget mb-80">
-                            <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
-    
-                            <p class="mb-30">KiKi Nails & Spa. A place that provides the top-quality services that you always deserve.</p>
-    
-                            <!-- Copywrite Text -->
-                            <div class="copywrite-text">
-                                <p> 
-    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  
-     </p>
-                            </div>
+        <div class="container">
+            <div class="row justify-content-between">
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-footer-widget mb-80">
+                        <!-- Footer Logo -->
+                        <a href="index.html" class="footer-logo"><img src="img/core-img/logo11.png" width="100" height="70" alt=""></a>
+      <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p> 
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  
+ </p>
                         </div>
                     </div>
-    
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-                        <div class="single-footer-widget mb-80">
-                            <!-- Widget Title -->
-                            <h4 class="widget-title">Opening times</h4>
-    
-                            <!-- Open Times -->
-                            <div class="open-time">
-                                <p>Monday: Friday: 10.00 - 23.00</p>
-                                <p>Saturday: 10.00 - 19.00</p>
-                            </div>
-    
-                            <!-- Social Info -->
-                            <div class="social-info">
-                                <a href="https://www.facebook.com/Kiki-Nails-Spa-106893854434912" class="facebook"><i class="fa fa-facebook"></i></a>
-                                
-                               
-                                <a href="https://www.instagram.com/kikinails2020/" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="mailto:kikinailstoronto@gmail.com" class="google-plus"><i class="fa fa-envelope"></i></a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-md-4 col-xl-3">
-                        <div class="single-footer-widget mb-80">
-    
-                            <!-- Widget Title -->
-                            <h4 class="widget-title">Contact Us</h4>
-    
-                            <!-- Contact Address -->
-                            <div class="contact-address">
-                                <p>Tel: 437-882-8389 </p>
-                                <p> <a href="mailto:kikinailstoronto@gmail.com">kikinailstoronto@gmail.com</a> </p>
-                                <p>Address:3802 Bloor St W, Etobicoke, ON M9B 6C2</p>
-                            </div>
-                        </div>
-                    </div>
-    
                 </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget mb-80">
+                        <!-- Widget Title -->
+                        <h4 class="widget-title">Opening times</h4>
+
+                        <!-- Open Times -->
+                        <div class="open-time">
+                            <p>Monday: Saturday: 9.30AM - 8.00PM</p>
+                            <p>Sunday: 10.00AM - 6.00PM</p>
+                        </div>
+
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/Kiki-Nails-Spa-106893854434912" class="facebook"><i class="fa fa-facebook"></i></a>
+                            
+                           
+                            <a href="https://www.instagram.com/kikinails2020/" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="mailto:kikinailstoronto@gmail.com" class="google-plus"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-md-4 col-xl-3">
+                    <div class="single-footer-widget mb-80">
+
+                        <!-- Widget Title -->
+                        <h4 class="widget-title">Contact Us</h4>
+
+                        <!-- Contact Address -->
+                        <div class="contact-address">
+                            <p> <a href="tel:437-882-8389">437-882-8389</a>  </p>
+                            <p> <a href="mailto:kikinailstoronto@gmail.com">kikinailstoronto@gmail.com</a> </p>
+                            <p> <a href="https://g.page/kikinails?share">
+                                3802 Bloor St W, Etobicoke, ON M9B 6C2
+                            </a> </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </footer>
-    <div class="hover_bkgr_fricc">
+        </div>
+    </footer>
+
+
+        <div class="chat">
+                <a href="#" onClick="window.open('http://m.me/Kikinails2020','Leave a messagee','resizable,height=460, top=200, left=900,width=370'); return false;">Leave a message <img src="img/icon.png" width="25" height="25"></a><noscript>You need Javascript to use the previous link or use <a href="http://m.me/Kikinails2020" target="_blank">New Page</a></noscript>
+            <!-- <a href="http://m.me/Kikinails2020">Leave a message <img src="img/icon.png" width="25" height="25"> </a> -->
+        </div>
+
+
+    <!-- <div class="hover_bkgr_fricc">
         <span class="helper"></span>
         <div>
             <div class="popupCloseButton">&times;</div>
@@ -450,7 +459,7 @@
                 <img height="20" width="20" src="img/icon.png">
             </a>
         </div>
-    </div>
+    </div> -->
     <!-- Footer Area End -->
 
     <!-- All JS Files -->
@@ -467,30 +476,30 @@
     <script src="js/default-assets/active.js"></script>
     <script>
 
-        $(window).load(function () {
-            var Displayed = false;
+    //     $(window).load(function () {
+    //         var Displayed = false;
         
-        $('.hover_bkgr_fricc').click(function(){
-            $('.hover_bkgr_fricc').hide();
-            Displayed = true;
-        });
-        $('.popupCloseButton').click(function(){
-            $('.hover_bkgr_fricc').hide();
-            Displayed = true;
-        });
+    //     $('.hover_bkgr_fricc').click(function(){
+    //         $('.hover_bkgr_fricc').hide();
+    //         Displayed = true;
+    //     });
+    //     $('.popupCloseButton').click(function(){
+    //         $('.hover_bkgr_fricc').hide();
+    //         Displayed = true;
+    //     });
 
-        $(window).scroll(function() {
-            var height = $(window).scrollTop();
+    //     $(window).scroll(function() {
+    //         var height = $(window).scrollTop();
 
-            if(height  > 150 && !Displayed) {
-                $('.hover_bkgr_fricc').show();
-                // do something
-            }
-            else{
-                $('.hover_bkgr_fricc').hide();
-            }
-        });
-    });
+    //         if(height  > 150 && !Displayed) {
+    //             $('.hover_bkgr_fricc').show();
+    //             // do something
+    //         }
+    //         else{
+    //             $('.hover_bkgr_fricc').hide();
+    //         }
+    //     });
+    // });
         </script>
 </body>
 
