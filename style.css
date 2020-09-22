@@ -1645,6 +1645,9 @@ input:focus {
       .booking-table-slider .owl-prev,
       .booking-table-slider .owl-next {
         display: none; } }
+        .topPara{
+          color:black; text-shadow: 1px 0px #ffffff;
+        }
     .booking-table-slider .owl-prev:hover, .booking-table-slider .owl-prev:focus,
     .booking-table-slider .owl-next:hover,
     .booking-table-slider .owl-next:focus {
