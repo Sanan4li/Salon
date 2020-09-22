@@ -1481,7 +1481,7 @@ input:focus {
         background-color: #bca858; }
 
 .single-testimonial-slide {
-  width: 100%;  margin-left: auto; margin-right: auto; 
+  width: 50%;  margin-left: auto; margin-right: auto; 
   /* background: blue; */
   position: relative;
   z-index: 1;
@@ -1489,8 +1489,11 @@ input:focus {
   .single-testimonial-slide .serviceSingle{
     border:none;
     float: left;
-    width: 50%;
+    width: 100%;
     /* background: greenyellow; */
+  }
+  #mobile{
+    display:none;
   }
   .single-testimonial-slide img {
     width: 35px;
@@ -1533,6 +1536,13 @@ input:focus {
     font-size: 42px;
     margin-bottom: 20px; }
     @media only screen and (max-width: 767px) {
+      #mobile{
+        display: block;
+
+      }
+      #PC{
+        display: none;
+      }
       .booking-info h2 {
         font-size: 36px; } }
   .booking-info h4 {
